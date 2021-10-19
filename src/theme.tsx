@@ -10,12 +10,17 @@ const breakpoints = createBreakpoints({
   xl: "80em",
 });
 
-const theme = extendTheme({
+export default extendTheme({
   colors: {
     black: "#16161D",
+  },
+  styles: {
+    global: {
+      "a:hover": {
+        color: "blue.400",
+      },
+    },
   },
   fonts,
   breakpoints,
 });
-
-export default theme;
