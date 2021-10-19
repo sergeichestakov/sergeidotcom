@@ -1,5 +1,6 @@
 import { Avatar, Box, Flex, Heading } from "@chakra-ui/react";
 import { Container } from "../components/Container";
+import Links from "../components/Links";
 
 export default function Index() {
   return (
@@ -21,6 +22,7 @@ export default function Index() {
           <Box>
             <Heading fontSize="8xl">Hi, I'm Sergei</Heading>
             <Heading fontSize="2xl">Software Engineer & Creator</Heading>
+            <Links />
           </Box>
         </Flex>
       </Flex>
