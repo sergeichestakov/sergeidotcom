@@ -9,7 +9,7 @@ import {
 
 export default function Links() {
   return (
-    <Flex pt="12px" width="112px" justify="space-between">
+    <Flex pt="8px" width="112px" justify="space-between">
       <Link href="https://twitter.com/sergeichestakov" isExternal>
         <FontAwesomeIcon icon={faTwitter} size="lg" />
       </Link>

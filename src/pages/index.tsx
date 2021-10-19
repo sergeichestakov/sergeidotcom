@@ -19,11 +19,11 @@ export default function Index() {
               size="xl"
             />
           </Box>
-          <Box>
-            <Heading fontSize="8xl">Hi, I'm Sergei</Heading>
+          <Flex flexDir="column">
+            <Heading fontSize="6xl">Hi, I'm Sergei</Heading>
             <Heading fontSize="2xl">Software Engineer & Creator</Heading>
             <Links />
-          </Box>
+          </Flex>
         </Flex>
       </Flex>
     </Container>
