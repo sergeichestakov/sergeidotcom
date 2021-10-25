@@ -18,7 +18,7 @@ export default function Card({ title, description, image, href }: Props) {
         width="320px"
         height="350px"
         borderWidth="1px"
-        _hover={{ cursor: "pointer", borderColor: "blue.400" }}
+        _hover={{ cursor: "pointer", borderColor: "blue.300" }}
         onClick={() => {
           linkRef.current.click();
         }}

@@ -17,8 +17,12 @@ export default function About() {
               <Link href="https://replit.com" isExternal color={BLUE}>
                 Replit
               </Link>{" "}
-              where we're building the future of programming. Previously, I've
-              worked at{" "}
+              where we're building the future of programming.
+            </Text>
+          </Box>
+          <Box width="100%" paddingBottom="16px">
+            <Text>
+              Previously, I've worked at{" "}
               <Link href="https://coda.io" isExternal color={BLUE}>
                 Coda
               </Link>
