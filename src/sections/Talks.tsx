@@ -38,7 +38,7 @@ export default function Talks() {
       <Flex flexDir="column" justify="center" align="center" maxWidth="750px">
         <Header href="#talks">Talks</Header>
         <Box width="100%" paddingBottom="16px">
-          <SubHeading>Talks I've given</SubHeading>
+          <SubHeading>Talks I've given.</SubHeading>
           <Flex flexWrap="wrap" justify="center" align="center">
             {TALKS.map(({ title, description, image, href }) => (
               <Card

@@ -25,8 +25,13 @@ export default extendTheme({
         fontSize: 16,
         fontFamily: "Inter",
       },
-      "a:hover": {
-        color: "blue.400",
+    },
+  },
+  components: {
+    Header: {
+      baseStyle: {
+        fontFamily: "Inter",
+        fontWeight: "normal",
       },
     },
   },

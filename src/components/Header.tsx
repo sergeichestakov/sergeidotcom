@@ -9,10 +9,8 @@ interface Props {
 export default function Header({ children, href }: Props) {
   return (
     <Box paddingBottom="16px">
-      <Link href={href}>
-        <Heading fontFamily="Inter" fontWeight="normal" fontSize="36px">
-          {children}
-        </Heading>
+      <Link href={href} color="inherit">
+        <Heading fontSize="36px">{children}</Heading>
       </Link>
     </Box>
   );

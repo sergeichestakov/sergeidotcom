@@ -78,7 +78,7 @@ export default function Projects() {
       <Flex flexDir="column" justify="center" align="center" maxWidth="750px">
         <Header href="#projects">Projects</Header>
         <Box width="100%" paddingBottom="16px">
-          <SubHeading>Projects I've built in my free time</SubHeading>
+          <SubHeading>Projects I've built in my free time.</SubHeading>
           <Flex flexWrap="wrap" justify="center" align="center">
             {PERSONAL_PROJECTS.map(({ title, description, image, href }) => (
               <Card

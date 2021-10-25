@@ -21,17 +21,10 @@ export default function Intro() {
             />
           </Box>
           <Flex flexDir="column">
-            <Heading
-              as="h1"
-              fontSize="56px"
-              fontFamily="Inter"
-              fontWeight="normal"
-            >
+            <Heading as="h1" fontSize="56px">
               Hi, I'm Sergei
             </Heading>
-            <Heading fontSize="24px" fontFamily="Inter" fontWeight="normal">
-              Software Engineer & Creator
-            </Heading>
+            <Heading fontSize="24px">Software Engineer & Creator</Heading>
             <Links />
           </Flex>
         </Flex>

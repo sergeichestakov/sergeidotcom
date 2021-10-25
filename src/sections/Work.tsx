@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import Container from "../components/Container";
 import Card from "../components/Card";
 import Header from "../components/Header";
@@ -74,7 +74,7 @@ export default function Work() {
       <Flex flexDir="column" justify="center" align="center" maxWidth="750px">
         <Header href="#work">Work</Header>
         <Box width="100%" paddingBottom="16px">
-          <SubHeading>Projects I've built at Replit</SubHeading>
+          <SubHeading>Features I've implemented at Replit.</SubHeading>
           <Flex flexWrap="wrap" justify="center" align="center">
             {WORK_PROJECTS.map(({ title, description, image, href }) => (
               <Card

@@ -15,7 +15,7 @@ export default function Contact() {
         <Header href="#contact">Contact</Header>
         <Box width="100%" paddingBottom="16px">
           <SubHeading>
-            Feel free to reach out! DMs are open and I'm happy to chat.
+            Feel free to reach out! My DMs are open and I'm happy to chat.
           </SubHeading>
 
           <Flex pt="8px" justify="center">
