@@ -92,6 +92,12 @@ const PERSONAL_PROJECTS = [
     description: "A Chrome Extension for UC Davis students. Over 15,000 MAUs.",
   },
   {
+    href: "https://twitter.com/SergeiChestakov/status/1362909033368145921",
+    image: "/replit-zoom.jpg",
+    title: "Replit Zoom",
+    description: "A Zoom clone embedded inside Replit",
+  },
+  {
     href: "https://devpost.com/software/webmote-tkf2lc",
     image: "/webmote.jpg",
     title: "Webmote",
@@ -105,6 +111,12 @@ const PERSONAL_PROJECTS = [
     description: "CLI tool that converts TODO comments into GitHub issues.",
   },
   {
+    href: "https://github.com/sergeichestakov/expo-yelp",
+    image: "/expo-yelp.png",
+    title: "Expo Yelp",
+    description: "Minimal Yelp Client built using Expo",
+  },
+  {
     href: "https://devpost.com/software/smart-sensor",
     image: "/smart-sensor.jpg",
     title: "Smart Sensor",
@@ -116,6 +128,34 @@ const PERSONAL_PROJECTS = [
     title: "Phase",
     description:
       "Graph visualization library for complex systems and simulations.",
+  },
+] as const;
+
+const TALKS = [
+  {
+    href: "https://shipfast.today",
+    image: "/shipfast.png",
+    title: "How to Ship Fast",
+    description: "A talk on how to ship fast as an engineering team.",
+  },
+  {
+    href: "https://privacy.sergeichestakov.repl.co/",
+    image: "/privacy.png",
+    title: "On Internet Privacy",
+    description: "A talk about internet privacy and why it's important.",
+  },
+  {
+    href: "https://schedulehelper.sergeichestakov.repl.co/",
+    image: "/howimadeschedulehelper.png",
+    title: "How I made ScheduleHelper",
+    description:
+      "A talk about how I built ScheduleHelper and what I learned building it.",
+  },
+  {
+    href: "https://html-css.sergeichestakov.repl.co/",
+    image: "/html-css.png",
+    title: "HTML + CSS Workshop",
+    description: "An introduction to HTML + CSS at HackTheCloud",
   },
 ] as const;
 
@@ -243,6 +283,37 @@ export default function Index() {
             </Text>
             <Flex flexWrap="wrap" justify="center" align="center">
               {PERSONAL_PROJECTS.map(({ title, description, image, href }) => (
+                <Card
+                  title={title}
+                  description={description}
+                  image={image}
+                  href={href}
+                />
+              ))}
+            </Flex>
+          </Box>
+        </Flex>
+      </Container>
+
+      <Divider />
+
+      <Container py="72px">
+        <Flex
+          flexDir="column"
+          justify="center"
+          align="center"
+          maxWidth="750px"
+          fontSize="18px"
+        >
+          <Box paddingBottom="16px">
+            <Heading size="2xl">Talks</Heading>
+          </Box>
+          <Box width="100%" paddingBottom="16px">
+            <Text textAlign="center">
+              I've given a number of talks, both at hackathons and through work.
+            </Text>
+            <Flex flexWrap="wrap" justify="center" align="center">
+              {TALKS.map(({ title, description, image, href }) => (
                 <Card
                   title={title}
                   description={description}
