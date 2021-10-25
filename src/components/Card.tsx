@@ -31,7 +31,7 @@ export default function Card({ title, description, image, href }: Props) {
           objectFit="contain"
           src={image}
         />
-        <Text mt={2} fontSize="xl" fontWeight="semibold" lineHeight="short">
+        <Text mt={2} fontSize="18px" fontWeight="semibold" lineHeight="short">
           {title}
         </Text>
         <Text mt={2}>{description}</Text>

@@ -10,7 +10,7 @@ export default function Header({ children, href }: Props) {
   return (
     <Box paddingBottom="16px">
       <Link href={href}>
-        <Heading fontFamily="Inter" fontSize="36px">
+        <Heading fontFamily="Inter" fontWeight="normal" fontSize="36px">
           {children}
         </Heading>
       </Link>

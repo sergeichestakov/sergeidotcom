@@ -5,6 +5,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import Container from "../components/Container";
 import Header from "../components/Header";
+import SubHeading from "../components/SubHeading";
 
 export default function Contact() {
   return (
@@ -12,10 +13,10 @@ export default function Contact() {
       <Flex flexDir="column" justify="center" align="center" maxWidth="750px">
         <Header href="#contact">Contact</Header>
         <Box width="100%" paddingBottom="16px">
-          <Text textAlign="center">
+          <SubHeading>
             Hit me up if you're in San Francisco! I'd love to grab coffee and
             chat.
-          </Text>
+          </SubHeading>
 
           <Flex pt="8px" justify="center">
             <Box p="8px">

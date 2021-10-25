@@ -1,8 +1,9 @@
 import * as React from "react";
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import Container from "../components/Container";
 import Card from "../components/Card";
 import Header from "../components/Header";
+import SubHeading from "../components/SubHeading";
 
 const PERSONAL_PROJECTS = [
   {
@@ -77,7 +78,7 @@ export default function Projects() {
       <Flex flexDir="column" justify="center" align="center" maxWidth="750px">
         <Header href="#projects">Projects</Header>
         <Box width="100%" paddingBottom="16px">
-          <Text textAlign="center">Things I've built in my free time:</Text>
+          <SubHeading>Projects I've built in my free time</SubHeading>
           <Flex flexWrap="wrap" justify="center" align="center">
             {PERSONAL_PROJECTS.map(({ title, description, image, href }) => (
               <Card

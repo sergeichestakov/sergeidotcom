@@ -3,6 +3,7 @@ import { Box, Flex, Text } from "@chakra-ui/react";
 import Container from "../components/Container";
 import Card from "../components/Card";
 import Header from "../components/Header";
+import SubHeading from "../components/SubHeading";
 
 const TALKS = [
   {
@@ -37,7 +38,7 @@ export default function Talks() {
       <Flex flexDir="column" justify="center" align="center" maxWidth="750px">
         <Header href="#talks">Talks</Header>
         <Box width="100%" paddingBottom="16px">
-          <Text textAlign="center">Talks I've given:</Text>
+          <SubHeading>Talks I've given</SubHeading>
           <Flex flexWrap="wrap" justify="center" align="center">
             {TALKS.map(({ title, description, image, href }) => (
               <Card
