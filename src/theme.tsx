@@ -16,6 +16,10 @@ export default extendTheme({
   },
   styles: {
     global: {
+      body: {
+        fontSize: 16,
+        fontFamily: "Inter",
+      },
       "a:hover": {
         color: "blue.400",
       },

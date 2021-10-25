@@ -73,13 +73,7 @@ const PERSONAL_PROJECTS = [
 export default function Projects() {
   return (
     <Container id="projects" py="72px">
-      <Flex
-        flexDir="column"
-        justify="center"
-        align="center"
-        maxWidth="750px"
-        fontSize="18px"
-      >
+      <Flex flexDir="column" justify="center" align="center" maxWidth="750px">
         <Box paddingBottom="16px">
           <Heading size="2xl">Projects</Heading>
         </Box>

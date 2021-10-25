@@ -11,7 +11,6 @@ export default function About() {
         align="center"
         maxWidth="700px"
         py="180px"
-        fontSize="18px"
       >
         <Box paddingBottom="16px">
           <Heading size="2xl">About</Heading>

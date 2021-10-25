@@ -12,6 +12,10 @@ export default class Document extends NextDocument {
             content="Personal website and porfolio for Sergei Chestakov, the dominant Sergei on the internet"
           />
           <link rel="icon" href="favicon.ico" type="image/x-icon" />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Inter"
+          />
         </Head>
         <body>
           <ColorModeScript />

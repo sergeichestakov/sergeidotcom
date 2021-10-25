@@ -19,7 +19,7 @@ const TALKS = [
   {
     href: "https://schedulehelper.sergeichestakov.repl.co/",
     image: "/howimadeschedulehelper.png",
-    title: "How I made ScheduleHelper",
+    title: "How I Made ScheduleHelper",
     description: "A talk about what I learned building ScheduleHelper.",
   },
   {
@@ -33,13 +33,7 @@ const TALKS = [
 export default function Talks() {
   return (
     <Container id="talks" py="72px">
-      <Flex
-        flexDir="column"
-        justify="center"
-        align="center"
-        maxWidth="750px"
-        fontSize="18px"
-      >
+      <Flex flexDir="column" justify="center" align="center" maxWidth="750px">
         <Box paddingBottom="16px">
           <Heading size="2xl">Talks</Heading>
         </Box>

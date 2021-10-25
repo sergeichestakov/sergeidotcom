@@ -8,13 +8,7 @@ import Container from "../components/Container";
 export default function Contact() {
   return (
     <Container id="contact" py="72px">
-      <Flex
-        flexDir="column"
-        justify="center"
-        align="center"
-        maxWidth="750px"
-        fontSize="18px"
-      >
+      <Flex flexDir="column" justify="center" align="center" maxWidth="750px">
         <Box paddingBottom="16px">
           <Heading size="2xl">Contact</Heading>
         </Box>
