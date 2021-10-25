@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import Container from "../components/Container";
 import Card from "../components/Card";
 import Header from "../components/Header";
@@ -42,6 +42,7 @@ export default function Talks() {
           <Flex flexWrap="wrap" justify="center" align="center">
             {TALKS.map(({ title, description, image, href }) => (
               <Card
+                key={title}
                 title={title}
                 description={description}
                 image={image}

@@ -16,7 +16,8 @@ export default extendTheme({
     twitterBlue: "#55acee",
     linkedinBlue: "#0077B5",
     emailGrey: "#a7adba",
-    github: "#adbac7",
+    russianBlue: "#0072CE",
+    githubGrey: "#adbac7",
   },
   styles: {
     global: {

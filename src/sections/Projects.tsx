@@ -82,6 +82,7 @@ export default function Projects() {
           <Flex flexWrap="wrap" justify="center" align="center">
             {PERSONAL_PROJECTS.map(({ title, description, image, href }) => (
               <Card
+                key={title}
                 title={title}
                 description={description}
                 image={image}

@@ -78,6 +78,7 @@ export default function Work() {
           <Flex flexWrap="wrap" justify="center" align="center">
             {WORK_PROJECTS.map(({ title, description, image, href }) => (
               <Card
+                key={title}
                 title={title}
                 description={description}
                 image={image}

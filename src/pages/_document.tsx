@@ -9,7 +9,7 @@ export default class Document extends NextDocument {
           <meta name="author" content="Sergei Chestakov" />
           <meta
             name="description"
-            content="Personal website and porfolio for Sergei Chestakov, the dominant Sergei on the internet"
+            content="Personal website and porfolio for Sergei Chestakov, the dominant Sergei on the internet."
           />
           <link
             rel="apple-touch-icon"
