@@ -1,0 +1,64 @@
+import * as React from "react";
+import { Box, Flex, Text, Heading } from "@chakra-ui/react";
+import { Container } from "../components/Container";
+import Card from "../components/Card";
+
+const TALKS = [
+  {
+    href: "https://shipfast.today",
+    image: "/shipfast.png",
+    title: "How to Ship Fast",
+    description: "A talk on how to ship fast as an engineering team.",
+  },
+  {
+    href: "https://privacy.sergeichestakov.repl.co/",
+    image: "/privacy.png",
+    title: "On Internet Privacy",
+    description: "A talk about internet privacy and why it's important.",
+  },
+  {
+    href: "https://schedulehelper.sergeichestakov.repl.co/",
+    image: "/howimadeschedulehelper.png",
+    title: "How I made ScheduleHelper",
+    description: "A talk about what I learned building ScheduleHelper.",
+  },
+  {
+    href: "https://html-css.sergeichestakov.repl.co/",
+    image: "/html-css.png",
+    title: "HTML + CSS Workshop",
+    description: "An introduction to HTML + CSS at HackTheCloud.",
+  },
+] as const;
+
+export default function Talks() {
+  return (
+    <Container py="72px">
+      <Flex
+        flexDir="column"
+        justify="center"
+        align="center"
+        maxWidth="750px"
+        fontSize="18px"
+      >
+        <Box paddingBottom="16px">
+          <Heading size="2xl">Talks</Heading>
+        </Box>
+        <Box width="100%" paddingBottom="16px">
+          <Text textAlign="center">
+            I've given a number of talks, both at hackathons and through work.
+          </Text>
+          <Flex flexWrap="wrap" justify="center" align="center">
+            {TALKS.map(({ title, description, image, href }) => (
+              <Card
+                title={title}
+                description={description}
+                image={image}
+                href={href}
+              />
+            ))}
+          </Flex>
+        </Box>
+      </Flex>
+    </Container>
+  );
+}
