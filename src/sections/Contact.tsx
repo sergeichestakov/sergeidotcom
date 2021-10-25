@@ -14,8 +14,7 @@ export default function Contact() {
         <Header href="#contact">Contact</Header>
         <Box width="100%" paddingBottom="16px">
           <SubHeading>
-            Hit me up if you're in San Francisco! I'd love to grab coffee and
-            chat.
+            Feel free to reach out! DMs are open and I'm happy to chat.
           </SubHeading>
 
           <Flex pt="8px" justify="center">
@@ -23,16 +22,16 @@ export default function Contact() {
               <Link href="https://twitter.com/sergeichestakov" isExternal>
                 <Flex justify="center" align="center">
                   <FontAwesomeIcon icon={faTwitter} size="lg" />
-                  <Text pl="4px">@SergeiChestakov</Text>
+                  <Text pl="8px">@SergeiChestakov</Text>
                 </Flex>
               </Link>
             </Box>
 
-            <Box p="8px">
+            <Box p="8px" pl="16px">
               <Link href="mailto:me@sergei.com" isExternal>
                 <Flex justify="center" align="center">
                   <FontAwesomeIcon icon={faEnvelope} size="lg" />
-                  <Text pl="4px">me@sergei.com</Text>
+                  <Text pl="8px">me@sergei.com</Text>
                 </Flex>
               </Link>
             </Box>
