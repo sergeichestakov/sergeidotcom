@@ -13,6 +13,10 @@ const breakpoints = createBreakpoints({
 export default extendTheme({
   colors: {
     black: "#16161D",
+    twitterBlue: "#55acee",
+    linkedinBlue: "#0077B5",
+    emailGrey: "#a7adba",
+    github: "#adbac7",
   },
   styles: {
     global: {

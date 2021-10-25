@@ -6,6 +6,7 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import Container from "../components/Container";
 import Header from "../components/Header";
 import SubHeading from "../components/SubHeading";
+import theme from "../theme";
 
 export default function Contact() {
   return (
@@ -19,7 +20,13 @@ export default function Contact() {
 
           <Flex pt="8px" justify="center">
             <Box p="8px">
-              <Link href="https://twitter.com/sergeichestakov" isExternal>
+              <Link
+                href="https://twitter.com/sergeichestakov"
+                isExternal
+                _hover={{
+                  color: theme.colors.twitterBlue,
+                }}
+              >
                 <Flex justify="center" align="center">
                   <FontAwesomeIcon icon={faTwitter} size="lg" />
                   <Text pl="8px">@SergeiChestakov</Text>
@@ -28,7 +35,11 @@ export default function Contact() {
             </Box>
 
             <Box p="8px" pl="16px">
-              <Link href="mailto:me@sergei.com" isExternal>
+              <Link
+                href="mailto:me@sergei.com"
+                isExternal
+                _hover={{ color: theme.colors.emailGrey }}
+              >
                 <Flex justify="center" align="center">
                   <FontAwesomeIcon icon={faEnvelope} size="lg" />
                   <Text pl="8px">me@sergei.com</Text>
