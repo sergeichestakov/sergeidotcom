@@ -7,7 +7,7 @@ import { Container } from "../components/Container";
 
 export default function Contact() {
   return (
-    <Container py="72px">
+    <Container id="contact" py="72px">
       <Flex
         flexDir="column"
         justify="center"

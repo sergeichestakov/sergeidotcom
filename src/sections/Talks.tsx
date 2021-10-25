@@ -32,7 +32,7 @@ const TALKS = [
 
 export default function Talks() {
   return (
-    <Container py="72px">
+    <Container id="talks" py="72px">
       <Flex
         flexDir="column"
         justify="center"

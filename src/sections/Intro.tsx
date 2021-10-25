@@ -5,7 +5,7 @@ import Links from "../components/Links";
 
 export default function Intro() {
   return (
-    <Container height="100vh">
+    <Container id="sergei" height="100vh">
       <Flex
         flexDir="column"
         justifyContent="center"

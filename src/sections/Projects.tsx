@@ -21,19 +21,20 @@ const PERSONAL_PROJECTS = [
     href: "https://devpost.com/software/nosegoes-45g87z",
     image: "/nosegoes.jpg",
     title: "Nose Goes",
-    description: "Control your web browser hands free.",
+    description:
+      "Control your web browser hands free using your face and voice.",
+  },
+  {
+    href: "https://twitter.com/SergeiChestakov/status/1362909033368145921",
+    image: "/replit-zoom.jpg",
+    title: "Replit Zoom",
+    description: "A Zoom clone embedded inside of Replit.",
   },
   {
     href: "https://getschedulehelper.com",
     image: "/schedule-helper.png",
     title: "Schedule Helper",
     description: "A Chrome Extension for UC Davis students. Over 15,000 MAUs.",
-  },
-  {
-    href: "https://twitter.com/SergeiChestakov/status/1362909033368145921",
-    image: "/replit-zoom.jpg",
-    title: "Replit Zoom",
-    description: "A Zoom clone embedded inside Replit",
   },
   {
     href: "https://devpost.com/software/webmote-tkf2lc",
@@ -71,7 +72,7 @@ const PERSONAL_PROJECTS = [
 
 export default function Projects() {
   return (
-    <Container py="72px">
+    <Container id="projects" py="72px">
       <Flex
         flexDir="column"
         justify="center"

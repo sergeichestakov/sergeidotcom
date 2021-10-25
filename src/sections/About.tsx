@@ -4,13 +4,13 @@ import { Container } from "../components/Container";
 
 export default function About() {
   return (
-    <Container>
+    <Container id="about">
       <Flex
         flexDir="column"
         justify="center"
         align="center"
         maxWidth="700px"
-        py="72px"
+        py="180px"
         fontSize="18px"
       >
         <Box paddingBottom="16px">

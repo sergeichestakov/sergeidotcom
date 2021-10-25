@@ -8,7 +8,7 @@ const WORK_PROJECTS = [
     href: "https://blog.replit.com/deeplinking",
     image: "/deeplinking.png",
     title: "Deeplinking",
-    description: "Link to a specific file, line, and column.",
+    description: "Link to a specific file, line, and column in a project.",
   },
   {
     href: "https://blog.replit.com/multitabs",
@@ -52,11 +52,23 @@ const WORK_PROJECTS = [
     title: "Vite",
     description: "A faster and leaner React template.",
   },
+  {
+    href: "https://blog.replit.com/collaborative-coding",
+    image: "/collaborative-coding.png",
+    title: "Observation Mode",
+    description: "Follow another user's cursor as they code.",
+  },
+  {
+    href: "https://blog.replit.com/collaborative-coding",
+    image: "/filetree-presence.png",
+    title: "Filetree Presence",
+    description: "See which files other users have open.",
+  },
 ] as const;
 
 export default function Work() {
   return (
-    <Container py="72px">
+    <Container id="work" py="72px">
       <Flex
         flexDir="column"
         justify="center"
