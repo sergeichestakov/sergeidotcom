@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Box, Flex, Text, Heading } from "@chakra-ui/react";
-import { Container } from "../components/Container";
+import Container from "../components/Container";
 import Card from "../components/Card";
 
 const PERSONAL_PROJECTS = [

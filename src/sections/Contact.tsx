@@ -3,7 +3,7 @@ import { Box, Flex, Text, Heading, Link } from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { Container } from "../components/Container";
+import Container from "../components/Container";
 
 export default function Contact() {
   return (

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Avatar, Box, Flex, Heading } from "@chakra-ui/react";
-import { Container } from "../components/Container";
+import Container from "../components/Container";
 import Links from "../components/Links";
 
 export default function Intro() {
