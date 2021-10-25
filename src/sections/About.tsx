@@ -1,6 +1,7 @@
 import * as React from "react";
-import { Box, Flex, Text, Heading, Link } from "@chakra-ui/react";
+import { Box, Flex, Text, Link } from "@chakra-ui/react";
 import Container from "../components/Container";
+import Header from "../components/Header";
 
 export default function About() {
   return (
@@ -12,9 +13,7 @@ export default function About() {
         maxWidth="700px"
         py="180px"
       >
-        <Box paddingBottom="16px">
-          <Heading size="2xl">About</Heading>
-        </Box>
+        <Header href="#about">About</Header>
         <Box width="100%" paddingBottom="16px">
           <Text>
             I'm currently a software engineer at{" "}

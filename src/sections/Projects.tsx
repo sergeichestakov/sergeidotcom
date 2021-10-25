@@ -1,7 +1,8 @@
 import * as React from "react";
-import { Box, Flex, Text, Heading } from "@chakra-ui/react";
+import { Box, Flex, Text } from "@chakra-ui/react";
 import Container from "../components/Container";
 import Card from "../components/Card";
+import Header from "../components/Header";
 
 const PERSONAL_PROJECTS = [
   {
@@ -74,14 +75,9 @@ export default function Projects() {
   return (
     <Container id="projects" py="72px">
       <Flex flexDir="column" justify="center" align="center" maxWidth="750px">
-        <Box paddingBottom="16px">
-          <Heading size="2xl">Projects</Heading>
-        </Box>
+        <Header href="#projects">Projects</Header>
         <Box width="100%" paddingBottom="16px">
-          <Text textAlign="center">
-            I'm passionate about building projects that help people. Here are
-            some of the things I've worked on in my free time:
-          </Text>
+          <Text textAlign="center">Things I've built in my free time:</Text>
           <Flex flexWrap="wrap" justify="center" align="center">
             {PERSONAL_PROJECTS.map(({ title, description, image, href }) => (
               <Card

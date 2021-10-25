@@ -1,7 +1,8 @@
 import * as React from "react";
-import { Box, Flex, Text, Heading } from "@chakra-ui/react";
+import { Box, Flex, Text } from "@chakra-ui/react";
 import Container from "../components/Container";
 import Card from "../components/Card";
+import Header from "../components/Header";
 
 const TALKS = [
   {
@@ -34,13 +35,9 @@ export default function Talks() {
   return (
     <Container id="talks" py="72px">
       <Flex flexDir="column" justify="center" align="center" maxWidth="750px">
-        <Box paddingBottom="16px">
-          <Heading size="2xl">Talks</Heading>
-        </Box>
+        <Header href="#talks">Talks</Header>
         <Box width="100%" paddingBottom="16px">
-          <Text textAlign="center">
-            I've given a number of talks, both at hackathons and through work.
-          </Text>
+          <Text textAlign="center">Talks I've given:</Text>
           <Flex flexWrap="wrap" justify="center" align="center">
             {TALKS.map(({ title, description, image, href }) => (
               <Card

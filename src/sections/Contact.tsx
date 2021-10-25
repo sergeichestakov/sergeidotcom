@@ -1,17 +1,16 @@
 import * as React from "react";
-import { Box, Flex, Text, Heading, Link } from "@chakra-ui/react";
+import { Box, Flex, Text, Link } from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import Container from "../components/Container";
+import Header from "../components/Header";
 
 export default function Contact() {
   return (
     <Container id="contact" py="72px">
       <Flex flexDir="column" justify="center" align="center" maxWidth="750px">
-        <Box paddingBottom="16px">
-          <Heading size="2xl">Contact</Heading>
-        </Box>
+        <Header href="#contact">Contact</Header>
         <Box width="100%" paddingBottom="16px">
           <Text textAlign="center">
             Hit me up if you're in San Francisco! I'd love to grab coffee and

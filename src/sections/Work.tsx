@@ -1,7 +1,8 @@
 import * as React from "react";
-import { Box, Flex, Text, Heading } from "@chakra-ui/react";
+import { Box, Flex, Text } from "@chakra-ui/react";
 import Container from "../components/Container";
 import Card from "../components/Card";
+import Header from "../components/Header";
 
 const WORK_PROJECTS = [
   {
@@ -70,14 +71,9 @@ export default function Work() {
   return (
     <Container id="work" py="72px">
       <Flex flexDir="column" justify="center" align="center" maxWidth="750px">
-        <Box paddingBottom="16px">
-          <Heading size="2xl">Work</Heading>
-        </Box>
+        <Header href="#work">Work</Header>
         <Box width="100%" paddingBottom="16px">
-          <Text textAlign="center">
-            I've shipped a lot during my time at Replit. Here are some of the
-            projects I've worked on:
-          </Text>
+          <Text textAlign="center">Things I've built at Replit:</Text>
           <Flex flexWrap="wrap" justify="center" align="center">
             {WORK_PROJECTS.map(({ title, description, image, href }) => (
               <Card
