@@ -70,7 +70,7 @@ const WORK_PROJECTS = [
 
 export default function Work() {
   return (
-    <Container id="work" py="72px">
+    <Container id="work" pt="32px">
       <Flex flexDir="column" justify="center" align="center" maxWidth="750px">
         <Header href="#work">Work</Header>
         <Box width="100%" paddingBottom="16px">

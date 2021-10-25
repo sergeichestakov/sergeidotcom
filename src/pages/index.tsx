@@ -11,20 +11,12 @@ export default function Index() {
     <Box>
       <DarkMode>
         <Intro />
-        <Divider />
+        <Divider variant="dashed" />
 
         <About />
-        <Divider />
-
         <Work />
-        <Divider />
-
         <Projects />
-        <Divider />
-
         <Talks />
-        <Divider />
-
         <Contact />
       </DarkMode>
     </Box>

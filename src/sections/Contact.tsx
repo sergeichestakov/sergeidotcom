@@ -10,7 +10,7 @@ import theme from "../theme";
 
 export default function Contact() {
   return (
-    <Container id="contact" py="72px">
+    <Container id="contact" pt="32px" pb="72px">
       <Flex flexDir="column" justify="center" align="center" maxWidth="750px">
         <Header href="#contact">Contact</Header>
         <Box width="100%" paddingBottom="16px">

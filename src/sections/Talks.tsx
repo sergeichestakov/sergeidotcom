@@ -34,7 +34,7 @@ const TALKS = [
 
 export default function Talks() {
   return (
-    <Container id="talks" py="72px">
+    <Container id="talks" pt="32px">
       <Flex flexDir="column" justify="center" align="center" maxWidth="750px">
         <Header href="#talks">Talks</Header>
         <Box width="100%" paddingBottom="16px">

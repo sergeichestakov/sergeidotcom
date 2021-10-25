@@ -7,14 +7,8 @@ const BLUE = "blue.400";
 
 export default function About() {
   return (
-    <Container id="about">
-      <Flex
-        flexDir="column"
-        justify="center"
-        align="center"
-        maxWidth="700px"
-        py="180px"
-      >
+    <Container id="about" pt="32px">
+      <Flex flexDir="column" justify="center" align="center" maxWidth="700px">
         <Header href="#about">About</Header>
         <Box width="100%" paddingBottom="16px">
           <Text>
