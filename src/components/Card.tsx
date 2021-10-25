@@ -28,6 +28,7 @@ export default function Card({ title, description, image, href }: Props) {
           size="md"
           width="100%"
           height="200px"
+          objectFit="contain"
           src={image}
         />
         <Text mt={2} fontSize="xl" fontWeight="semibold" lineHeight="short">
