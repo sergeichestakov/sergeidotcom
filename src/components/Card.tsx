@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Box, Image, Text, Link } from "@chakra-ui/react";
+import isMobile from "is-mobile";
 
 interface Props {
   description: string;
@@ -9,6 +10,12 @@ interface Props {
 }
 
 export default function Card({ title, description, image, href }: Props) {
+  const hover = isMobile()
+    ? {}
+    : { cursor: "pointer", borderColor: "blue.300" };
+
+  const active = isMobile() ? { borderColor: "blue.300" } : {};
+
   return (
     <Box p="16px">
       <Link
@@ -23,7 +30,8 @@ export default function Card({ title, description, image, href }: Props) {
           height="350px"
           borderWidth="1px"
           borderColor="whiteAlpha.300"
-          _hover={{ cursor: "pointer", borderColor: "blue.300" }}
+          _hover={hover}
+          _active={active}
         >
           <Image
             borderRadius="md"
