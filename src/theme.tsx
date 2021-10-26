@@ -28,7 +28,7 @@ export default extendTheme({
     },
   },
   components: {
-    Header: {
+    Heading: {
       baseStyle: {
         fontFamily: "Inter",
         fontWeight: "normal",
