@@ -13,7 +13,7 @@ export default function Intro() {
         height="100%"
       >
         <Flex justify="center" align="center" flexDir={["column", "row"]}>
-          <Box padding="24px">
+          <Box padding={["16px", "24px"]}>
             <Avatar
               name="Sergei Chestakov"
               src="/sergeichestakov.jpg"

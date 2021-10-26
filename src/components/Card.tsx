@@ -10,7 +10,7 @@ interface Props {
 
 export default function Card({ title, description, image, href }: Props) {
   return (
-    <Box p="20px">
+    <Box p="16px">
       <Link href={href} isExternal _hover={{ textDecoration: "none" }}>
         <Box
           p="20px"
