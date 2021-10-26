@@ -6,7 +6,6 @@ import {
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import theme from "../theme";
 
 export default function Links() {
   return (
@@ -14,7 +13,7 @@ export default function Links() {
       <Link
         href="https://twitter.com/sergeichestakov"
         isExternal
-        _hover={{ color: theme.colors.twitterBlue }}
+        _hover={{ color: "blue.300" }}
       >
         <FontAwesomeIcon icon={faTwitter} size="lg" />
       </Link>
@@ -22,7 +21,7 @@ export default function Links() {
       <Link
         href="https://github.com/sergeichestakov"
         isExternal
-        _hover={{ color: theme.colors.githubGrey }}
+        _hover={{ color: "blue.300" }}
       >
         <FontAwesomeIcon icon={faGithub} size="lg" />
       </Link>
@@ -30,7 +29,7 @@ export default function Links() {
       <Link
         href="https://www.linkedin.com/in/sergeichestakov/"
         isExternal
-        _hover={{ color: theme.colors.linkedinBlue }}
+        _hover={{ color: "blue.300" }}
       >
         <FontAwesomeIcon icon={faLinkedin} size="lg" />
       </Link>
@@ -38,7 +37,7 @@ export default function Links() {
       <Link
         href="mailto:me@sergei.com"
         isExternal
-        _hover={{ color: theme.colors.emailGrey }}
+        _hover={{ color: "blue.300" }}
       >
         <FontAwesomeIcon icon={faEnvelope} size="lg" />
       </Link>

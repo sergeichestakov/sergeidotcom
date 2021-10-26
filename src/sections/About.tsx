@@ -10,8 +10,8 @@ export default function About() {
     <Container id="about" pt="32px">
       <Flex flexDir="column" justify="center" align="center" maxWidth="700px">
         <Header href="#about">About</Header>
-        <Box p="5" maxWidth="100%">
-          <Box width="100%" paddingBottom="16px">
+        <Box p="16px" maxWidth="100%">
+          <Box width="100%" pb="16px">
             <Text>
               I'm currently a software engineer at{" "}
               <Link href="https://replit.com" isExternal color={BLUE}>
