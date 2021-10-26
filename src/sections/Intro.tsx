@@ -10,7 +10,7 @@ export default function Intro() {
         flexDir="column"
         justifyContent="center"
         alignItems="center"
-        height="100%"
+        height={["75%", "100%"]}
       >
         <Flex justify="center" align="center" flexDir={["column", "row"]}>
           <Box padding={["16px", "24px"]}>
