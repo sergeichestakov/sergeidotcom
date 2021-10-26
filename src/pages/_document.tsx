@@ -6,11 +6,31 @@ export default class Document extends NextDocument {
     return (
       <Html>
         <Head>
+          <meta charSet="UTF-8" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+
           <meta name="author" content="Sergei Chestakov" />
           <meta
             name="description"
-            content="Personal website and porfolio for Sergei Chestakov, the dominant Sergei on the internet."
+            content="Sergei Chestakov's personal website & portfolio."
           />
+          <meta property="title" content="Sergei's homepage" />
+          <meta property="image" content="/sergeichestakov.jpg" />
+          <meta property="url" content="https://sergei.com" />
+
+          <meta
+            name="og:description"
+            content="Sergei Chestakov's personal website & portfolio"
+          />
+          <meta property="og:image" content="/sergeichestakov.jpg" />
+          <meta property="og:url" content="https://sergei.com" />
+
+          <meta name="twitter:site" content="@sergeichestakov" />
+          <meta name="twitter:card" content="summary_large_image" />
+
           <link
             rel="apple-touch-icon"
             sizes="180x180"
