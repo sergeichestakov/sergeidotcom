@@ -11,7 +11,7 @@ export default function Index() {
     <Box>
       <DarkMode>
         <Intro />
-        <Divider variant="dashed" />
+        <Divider borderColor="gray.600" />
 
         <About />
         <Work />

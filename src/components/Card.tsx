@@ -17,6 +17,7 @@ export default function Card({ title, description, image, href }: Props) {
           width="320px"
           height="350px"
           borderWidth="1px"
+          borderColor="whiteAlpha.300"
           _hover={{ cursor: "pointer", borderColor: "blue.300" }}
         >
           <Image
