@@ -3,7 +3,7 @@ import { Box, Flex, Text, Link } from "@chakra-ui/react";
 import Container from "../components/Container";
 import Header from "../components/Header";
 
-const BLUE = "blue.400";
+const BLUE = "blue.300";
 
 export default function About() {
   return (

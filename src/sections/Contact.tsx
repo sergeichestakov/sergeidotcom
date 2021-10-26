@@ -14,9 +14,7 @@ export default function Contact() {
       <Flex flexDir="column" justify="center" align="center" maxWidth="750px">
         <Header href="#contact">Contact</Header>
         <Box width="100%" paddingBottom="16px">
-          <SubHeading>
-            Feel free to reach out! My DMs are open and I'm happy to chat.
-          </SubHeading>
+          <SubHeading>Feel free to reach out! My DMs are open.</SubHeading>
 
           <Flex pt="8px" justify="center">
             <Box p="8px">
@@ -34,7 +32,7 @@ export default function Contact() {
               </Link>
             </Box>
 
-            <Box p="8px" pl="16px">
+            <Box p="8px">
               <Link
                 href="mailto:me@sergei.com"
                 isExternal

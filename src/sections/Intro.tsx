@@ -12,7 +12,7 @@ export default function Intro() {
         alignItems="center"
         height="100%"
       >
-        <Flex justify="center" align="center">
+        <Flex justify="center" align="center" flexDir={["column", "row"]}>
           <Box padding="24px">
             <Avatar
               name="Sergei Chestakov"
@@ -20,11 +20,11 @@ export default function Intro() {
               size="xl"
             />
           </Box>
-          <Flex flexDir="column">
-            <Heading as="h1" fontSize="56px">
+          <Flex flexDir="column" alignItems={["center", "stretch"]}>
+            <Heading as="h1" fontSize={[36, 52]}>
               Hi, I'm Sergei
             </Heading>
-            <Heading fontSize="24px">Software Engineer & Creator</Heading>
+            <Heading fontSize={[18, 24]}>Software Engineer & Creator</Heading>
             <Links />
           </Flex>
         </Flex>
