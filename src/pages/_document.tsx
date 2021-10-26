@@ -55,7 +55,7 @@ export default class Document extends NextDocument {
           />
         </Head>
         <body>
-          <ColorModeScript />
+          <ColorModeScript initialColorMode="dark" />
           <Main />
           <NextScript />
         </body>

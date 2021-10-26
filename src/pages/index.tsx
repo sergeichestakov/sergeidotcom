@@ -1,4 +1,4 @@
-import { Box, Divider, DarkMode } from "@chakra-ui/react";
+import { Box, Divider } from "@chakra-ui/react";
 import Intro from "../sections/Intro";
 import About from "../sections/About";
 import Work from "../sections/Work";
@@ -9,16 +9,13 @@ import Contact from "../sections/Contact";
 export default function Index() {
   return (
     <Box>
-      <DarkMode>
-        <Intro />
-        <Divider borderColor="gray.600" />
-
-        <About />
-        <Work />
-        <Projects />
-        <Talks />
-        <Contact />
-      </DarkMode>
+      <Intro />
+      <Divider />
+      <About />
+      <Work />
+      <Projects />
+      <Talks />
+      <Contact />
     </Box>
   );
 }
