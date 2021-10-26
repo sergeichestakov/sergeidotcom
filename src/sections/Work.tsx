@@ -28,7 +28,7 @@ const WORK_PROJECTS = [
     href: "https://blog.replit.com/tabbed-shell",
     image: "/tabbed-shell.png",
     title: "Tabbed Shell",
-    description: "A better shell experience.",
+    description: "Easier access to a fully functioning Linux shell.",
   },
   {
     href: "https://blog.replit.com/markdown-preview",
@@ -58,13 +58,13 @@ const WORK_PROJECTS = [
     href: "https://blog.replit.com/collaborative-coding",
     image: "/collaborative-coding.png",
     title: "Observation Mode",
-    description: "Follow another user's cursor as they code.",
+    description: "Follow another online user's cursor as they code.",
   },
   {
     href: "https://blog.replit.com/collaborative-coding",
     image: "/filetree-presence.png",
     title: "Filetree Presence",
-    description: "See which files other users have open.",
+    description: "See which files other online users have open.",
   },
 ] as const;
 

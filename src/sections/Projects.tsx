@@ -24,7 +24,7 @@ const PERSONAL_PROJECTS = [
     image: "/nosegoes.jpg",
     title: "Nose Goes",
     description:
-      "Control your web browser hands free using your face and voice.",
+      "Control your web browser hands free using just your face and voice.",
   },
   {
     href: "https://twitter.com/SergeiChestakov/status/1362909033368145921",
@@ -55,7 +55,7 @@ const PERSONAL_PROJECTS = [
     href: "https://github.com/sergeichestakov/expo-yelp",
     image: "/expo-yelp.png",
     title: "Expo Yelp",
-    description: "Minimal Yelp Client built using Expo",
+    description: "Minimal Yelp Client built using Expo.",
   },
   {
     href: "https://devpost.com/software/smart-sensor",
