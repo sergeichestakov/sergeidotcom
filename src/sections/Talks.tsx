@@ -8,25 +8,25 @@ import SubHeading from "../components/SubHeading";
 const TALKS = [
   {
     href: "https://talks.sergei.com/ship",
-    image: "/shipfast.png",
+    image: "/shipfast.jpg",
     title: "How to Ship Fast",
     description: "How to move quickly as an engineering team.",
   },
   {
     href: "https://talks.sergei.com/privacy",
-    image: "/privacy.png",
+    image: "/privacy.jpg",
     title: "On Internet Privacy",
     description: "Internet privacy and why it's important.",
   },
   {
     href: "https://talks.sergei.com/schedule-helper",
-    image: "/howimadeschedulehelper.png",
+    image: "/howimadeschedulehelper.jpg",
     title: "How I Made ScheduleHelper",
     description: "What I learned building ScheduleHelper",
   },
   {
     href: "https://talks.sergei.com/html-css",
-    image: "/html-css.png",
+    image: "/html-css.jpg",
     title: "HTML + CSS Workshop",
     description: "An introduction to HTML + CSS.",
   },

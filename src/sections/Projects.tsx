@@ -53,7 +53,7 @@ const PERSONAL_PROJECTS = [
   },
   {
     href: "https://github.com/sergeichestakov/expo-yelp",
-    image: "/expo-yelp.png",
+    image: "/expo-yelp.jpg",
     title: "Expo Yelp",
     description: "Minimal Yelp Client built using Expo.",
   },
@@ -65,7 +65,7 @@ const PERSONAL_PROJECTS = [
   },
   {
     href: "https://github.com/mattrasto/phase",
-    image: "/phase.png",
+    image: "/phase.jpg",
     title: "Phase",
     description:
       "Graph visualization library for complex systems and simulations.",
