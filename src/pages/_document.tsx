@@ -13,23 +13,34 @@ export default class Document extends NextDocument {
           />
 
           <meta name="author" content="Sergei Chestakov" />
+          <meta name="title" content="Sergei Chestakov's homepage" />
           <meta
             name="description"
             content="Sergei Chestakov's personal website & portfolio."
           />
-          <meta property="title" content="Sergei's homepage" />
-          <meta property="image" content="/sergeichestakov.jpg" />
-          <meta property="url" content="https://sergei.com" />
+          <meta name="image" content="https://sergei.com/sergeichestakov.jpg" />
+          <meta name="url" content="https://sergei.com" />
 
+          <meta name="og:title" content="Sergei Chestakov's homepage" />
           <meta
             name="og:description"
             content="Sergei Chestakov's personal website & portfolio"
           />
-          <meta property="og:image" content="/sergeichestakov.jpg" />
-          <meta property="og:url" content="https://sergei.com" />
+          <meta
+            name="og:image"
+            content="https://sergei.com/sergeichestakov.jpg"
+          />
+          <meta name="og:url" content="https://sergei.com" />
 
+          <meta name="twitter:title" content="Sergei Chestakov's homepage" />
+          <meta name="twitter:creator" content="@sergeichestakov" />
           <meta name="twitter:site" content="@sergeichestakov" />
+          <meta name="twitter:description" content="@sergeichestakov" />
           <meta name="twitter:card" content="summary_large_image" />
+          <meta
+            name="twitter:image"
+            content="https://sergei.com/sergeichestakov.jpg"
+          />
 
           <link
             rel="apple-touch-icon"
