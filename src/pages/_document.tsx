@@ -21,17 +21,6 @@ export default class Document extends NextDocument {
           <meta name="image" content="https://sergei.com/sergeichestakov.jpg" />
           <meta name="url" content="https://sergei.com" />
 
-          <meta name="og:title" content="Sergei Chestakov's homepage" />
-          <meta
-            name="og:description"
-            content="Sergei Chestakov's personal website & portfolio"
-          />
-          <meta
-            name="og:image"
-            content="https://sergei.com/sergeichestakov.jpg"
-          />
-          <meta name="og:url" content="https://sergei.com" />
-
           <meta name="twitter:title" content="Sergei Chestakov's homepage" />
           <meta name="twitter:creator" content="@sergeichestakov" />
           <meta name="twitter:site" content="@sergeichestakov" />
