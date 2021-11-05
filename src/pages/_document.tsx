@@ -41,6 +41,7 @@ export default class Document extends NextDocument {
             name="twitter:image"
             content="https://sergei.com/sergeichestakov.jpg"
           />
+          <meta name="theme-color" content="#171923" />
 
           <link
             rel="apple-touch-icon"
