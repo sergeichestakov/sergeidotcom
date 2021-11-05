@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Sergei</title>
+        <title>Sergei Chestakov | Portfolio</title>
       </Head>
       <ChakraProvider resetCSS theme={theme}>
         <Component {...pageProps} />
