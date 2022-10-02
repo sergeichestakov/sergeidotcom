@@ -57,14 +57,14 @@ const WORK_PROJECTS = [
   {
     href: "https://blog.replit.com/collaborative-coding",
     image: "/collaborative-coding.jpg",
-    title: "Observation Mode",
-    description: "Follow another online user's cursor as they code.",
+    title: "Collaborative Coding",
+    description: "Implemented various presence based multiplayer features.",
   },
   {
-    href: "https://blog.replit.com/collaborative-coding",
-    image: "/filetree-presence.jpg",
-    title: "Filetree Presence",
-    description: "See which files other online users have open.",
+    href: "https://blog.replit.com/codemirror",
+    image: "/cm-replit.png",
+    title: "CodeMirror Migration",
+    description: "Led migration from Monaco to CodeMirror in the editor.",
   },
 ] as const;
 
