@@ -34,13 +34,14 @@ export default function About() {
               <Link href="https://expo.io" isExternal color={BLUE}>
                 Expo
               </Link>
-              . I've also contracted for a number of other startups on the side.
+              . I've also contracted for and advised a number of other startups
+              on the side.
             </Text>
           </Box>
           <Box width="100%">
             <Text>
-              I'm originally from St. Petersburg, Russia and am now living in
-              San Francisco, CA.
+              I'm originally from St. Petersburg, Russia, grew up in the San
+              Fransisco Bay Area, and am now living in New York City.
             </Text>
           </Box>
         </Box>
