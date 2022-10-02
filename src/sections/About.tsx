@@ -41,7 +41,7 @@ export default function About() {
           <Box width="100%">
             <Text>
               I'm originally from St. Petersburg, Russia, grew up in the San
-              Fransisco Bay Area, and am now living in New York City.
+              Francisco Bay Area, and am now living in New York City.
             </Text>
           </Box>
         </Box>
