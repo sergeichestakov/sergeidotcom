@@ -66,6 +66,18 @@ const WORK_PROJECTS = [
     title: "CodeMirror Migration",
     description: "Led migration from Monaco to CodeMirror in the editor.",
   },
+  {
+    href: "https://blog.replit.com/themes",
+    image: "/custom-themes.png",
+    title: "Custom Themes",
+    description: "Support for site-wide custom themes.",
+  },
+  {
+    href: "https://blog.replit.com/desktop-app",
+    image: "/desktop-app.png",
+    title: "Desktop App",
+    description: "Standalone native desktop app for Replit.",
+  },
 ] as const;
 
 export default function Work() {
