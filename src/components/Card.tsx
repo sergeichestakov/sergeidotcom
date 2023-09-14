@@ -35,10 +35,10 @@ export default function Card({ title, description, image, href }: Props) {
         >
           <Image
             borderRadius="md"
-            size="md"
             width="100%"
             height="200px"
             objectFit="contain"
+            alt={title}
             src={image}
           />
           <Text mt={2} fontSize="18px" fontWeight="semibold" lineHeight="short">
