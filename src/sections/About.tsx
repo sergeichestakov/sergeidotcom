@@ -14,15 +14,20 @@ export default function About() {
           <Box width="100%" pb="16px">
             <Text>
               I'm currently a software engineer at{" "}
-              <Link href="https://replit.com" isExternal color={BLUE}>
-                Replit
+              <Link href="https://whop.com" isExternal color={BLUE}>
+                Whop
               </Link>{" "}
-              where we're building the future of programming.
+              where we're building the future of e-commerce.
             </Text>
           </Box>
           <Box width="100%" paddingBottom="16px">
             <Text>
-              Previously, I've worked at{" "}
+              Previously, I spent 4 years building the next generation of
+              online, collaborative IDEs at{" "}
+              <Link href="https://replit.com" isExternal color={BLUE}>
+                Replit
+              </Link>
+              . Before that, I got the chance to work at{" "}
               <Link href="https://coda.io" isExternal color={BLUE}>
                 Coda
               </Link>
@@ -34,8 +39,8 @@ export default function About() {
               <Link href="https://expo.io" isExternal color={BLUE}>
                 Expo
               </Link>
-              . I've also contracted for and advised a number of other startups
-              on the side.
+              . I've also contracted for, invested in, and advised a number of
+              other startups on the side.
             </Text>
           </Box>
           <Box width="100%">
