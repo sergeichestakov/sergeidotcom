@@ -12,17 +12,16 @@ export default function About() {
         <Header href="#about">About</Header>
         <Box p="16px" maxWidth="100%">
           <Box width="100%" pb="16px">
-            <Text>
-              I'm currently a software engineer at{" "}
-              <Link href="https://replit.com" isExternal color={BLUE}>
-                Replit
-              </Link>{" "}
-              where we're building the future of programming.
-            </Text>
+            <Text>I'm a full-stack, product oriented software engineer.</Text>
           </Box>
           <Box width="100%" paddingBottom="16px">
             <Text>
-              Previously, I've worked at{" "}
+              Most recently, I spent over 4 years building the next generation
+              of online, collaborative IDEs as an early engineer at{" "}
+              <Link href="https://replit.com" isExternal color={BLUE}>
+                Replit
+              </Link>
+              . Before that, I got the chance to work at{" "}
               <Link href="https://coda.io" isExternal color={BLUE}>
                 Coda
               </Link>
@@ -34,8 +33,8 @@ export default function About() {
               <Link href="https://expo.io" isExternal color={BLUE}>
                 Expo
               </Link>
-              . I've also contracted for and advised a number of other startups
-              on the side.
+              . I've also contracted for, invested in, and advised a number of
+              other startups on the side.
             </Text>
           </Box>
           <Box width="100%">
