@@ -41,7 +41,7 @@ export default function Home() {
               size="lg"
             />
             <div className="flex gap-2 items-center flex-col">
-              <p className="text-4xl">Hi, I'm Sergei</p>
+              <p className="text-4xl">Hi, I&apos;m Sergei</p>
               <p className="text-md">Software Engineer & Creator</p>
             </div>
           </div>
