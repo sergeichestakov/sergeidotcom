@@ -8,15 +8,48 @@ const geistSans = localFont({
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
 });
 
+const title = "Sergei Chestakov | Portfolio";
+const description = "Sergei Chestakov's personal website and portfolio";
+const name = "Sergei Chestakov";
+const username = "@sergeichestakov";
+const url = "https://sergei.com";
+const image = `${url}/sergeichestakov.jpg`;
+
 export const metadata: Metadata = {
-  title: "Sergei Chestakov | Portfolio",
-  description: "Sergei Chestakov's personal website and portfolio",
+  title,
+  description,
+  authors: [{ name }],
+  creator: name,
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    site: username,
+    creator: username,
+    images: [image],
+  },
+  openGraph: {
+    title,
+    description,
+    url,
+    siteName: "Sergei",
+    images: [
+      {
+        url,
+        width: 600,
+        height: 600,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
